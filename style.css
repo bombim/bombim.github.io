@@ -1,0 +1,128 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-navbar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+
+.ul-navbar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+}
+
+.li-navbar{
+    color: white;
+ 
+    margin-left: 10px;
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style-type: none ;
+}
+
+.li-navbar:hover{
+    background-color: #396eff;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.a-navbar{
+    text-decoration: none;
+    color: white;
+    height: 100px;
+    width: 100px;
+}
+
+.containerMain-content{
+    background-color: #396eff;
+    height: 505px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-content{
+    background-color: white;
+    width: 60%;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.container-content-edu{
+    background-color: white;
+    width: 60%;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.container-content-exp{
+    background-color: white;
+    width: 60%;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.container-content-exp>h2{
+    font-size: xx-large;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px
+}
+
+.container-content-exp>ul{
+    margin-right: 5px;
+    font-size: large;
+    margin-left: 30px;
+}
+
+.container-content-edu>p{
+    font-size: 5px;
+}
+
+.container-content-edu>h2{
+    font-size: xx-large;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px
+}
+
+.container-content-edu>ul{
+    margin-right: 5px;
+    font-size: larger;
+    margin-left: 30px;
+}
+
+
+.container-content>h2{
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+img{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 100px;
+}
+
+.p-content {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    font-size: larger;
+}
+
+
+
